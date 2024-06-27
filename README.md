@@ -1,58 +1,76 @@
-# MEAN stack Authentication and Authorization example
+# Node.js Express Login and Registration example with MongoDB and JWT
 
-Build MEAN stack JWT Authentication & Authorization example with HttpOnly Cookie and JWT.
+- Appropriate Flow for User Login and Registration with JWT and Cookies
+- Node.js Express Architecture with CORS, Authentication & Authorization middlewares & Sequelize
+- How to configure Express routes to work with JWT
+- How to define Data Models and association for Authentication and Authorization
+- Way to use Sequelize to interact with MySQL Database
 
-## Flow for User Registration and User Login
-For JWT – Token based Authentication with Rest API, we’re gonna call 2 endpoints:
-- POST `api/auth/signup` for User Registration
-- POST `api/auth/signin` for User Login
-- POST `api/auth/signout` for User Logout
+## User Registration, User Login and Authorization process.
+The diagram shows flow of how we implement User Registration, User Login and Authorization process.
 
-You can take a look at following flow to have an overview of Requests and Responses:
+![node-js-express-login-example-mongodb-flow](node-js-express-login-example-mongodb-flow.png)
 
-![mean-stack-authentication-authorization-flow](mean-stack-authentication-authorization-flow.png)
+For more detail, please visit:
+> [Node.js Express Login and Registration example with MongoDB and JWT](https://www.bezkoder.com/node-js-express-login-mongodb/)
 
-For more detail, please visit the tutorial:
-> [MEAN stack Authentication & Authorization with Angular 13](https://www.bezkoder.com/mean-stack-auth-angular-13/)
+Working with Front-end:
+> [Angular 12](https://www.bezkoder.com/angular-12-jwt-auth-httponly-cookie/) / [Angular 13](https://www.bezkoder.com/angular-13-jwt-auth-httponly-cookie/) / [Angular 14](https://www.bezkoder.com/angular-14-jwt-auth/) / [Angular 15](https://www.bezkoder.com/angular-15-jwt-auth/) / [Angular 16](https://www.bezkoder.com/angular-16-jwt-auth/) / [Angular 17](https://www.bezkoder.com/angular-17-jwt-auth/)
 
-> [MEAN stack Authentication & Authorization with Angular 14](https://www.bezkoder.com/mean-stack-auth-angular-14/)
+> [React](https://www.bezkoder.com/react-login-example-jwt-hooks/) / [React Redux](https://www.bezkoder.com/redux-toolkit-auth/)
 
-> [MEAN stack Authentication & Authorization with Angular 15](https://www.bezkoder.com/mean-stack-auth-angular-15/)
+## More Practice:
+> [Node.js, Express & MongoDb: Build a CRUD Rest Api example](https://www.bezkoder.com/node-express-mongodb-crud-rest-api/)
 
-> [MEAN stack Authentication & Authorization with Angular 16](https://www.bezkoder.com/mean-stack-auth-angular-16/)
+> [Server side Pagination in Node.js with MongoDB and Mongoose](https://www.bezkoder.com/node-js-mongodb-pagination/)
 
-> [MEAN stack Authentication & Authorization with Angular 17](https://www.bezkoder.com/mean-stack-auth-angular-17/)
+> [Node.js Express File Upload Rest API example](https://www.bezkoder.com/node-js-express-file-upload/)
 
-## Run
-### Node.js Server
-Run `node server.js` for a dev server exporting API at http://localhost:8080/.
+> [Node.js + MongoDB: User Authentication & Authorization with JWT (using HTTP headers)](https://www.bezkoder.com/node-js-mongodb-auth-jwt/)
 
-### Angular Client
-Run `ng serve --port 8081`. Navigate to `http://localhost:8081/`.
+Associations:
+> [MongoDB One-to-One relationship tutorial with Mongoose examples](https://www.bezkoder.com/mongoose-one-to-one-relationship-example/)
 
-## More practice
+> [MongoDB One-to-Many Relationship tutorial with Mongoose examples](https://www.bezkoder.com/mongoose-one-to-many-relationship/)
 
-Fullstack with Node:
+> [MongoDB Many-to-Many Relationship with Mongoose examples](https://www.bezkoder.com/mongodb-many-to-many-mongoose/)
 
-> [Angular 13 + Node Express + MongoDB example](https://www.bezkoder.com/mean-stack-crud-example-angular-13/)
+Fullstack:
+> [Vue.js + Node.js + Express + MongoDB example](https://www.bezkoder.com/vue-node-express-mongodb-mevn-crud/)
 
-> [Angular 14 + Node Express + MongoDB example](https://www.bezkoder.com/mean-stack-crud-example-angular-14/)
+> [Angular 8 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-mongodb-node-express/)
 
-> [Angular 15 + Node Express + MongoDB example](https://www.bezkoder.com/angular-15-node-js-express-mongodb/)
+> [Angular 10 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-10-mongodb-node-express/)
 
-> [Angular 16 + Node Express + MongoDB example](https://www.bezkoder.com/angular-16-node-js-express-mongodb/)
+> [Angular 11 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-11-mongodb-node-js-express/)
 
-> [Angular 17 + Node Express + MongoDB example](https://www.bezkoder.com/angular-17-node-js-express-mongodb/)
+> [Angular 12 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-12-mongodb-node-js-express/)
 
-> [Angular 13 + Node Express: File upload example](https://www.bezkoder.com/angular-13-node-express-file-upload/)
+> [Angular 13 + Node.js + Express + MongoDB example](https://www.bezkoder.com/mean-stack-crud-example-angular-13/)
 
-> [Angular 14 + Node Express: File upload example](https://www.bezkoder.com/angular-14-node-express-file-upload/)
+> [Angular 14 + Node.js + Express + MongoDB example](https://www.bezkoder.com/mean-stack-crud-example-angular-14/)
 
-> [Angular 15 + Node Express: File upload example](https://www.bezkoder.com/angular-15-node-express-file-upload/)
+> [Angular 15 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-15-node-js-express-mongodb/)
 
-> [Angular 16 + Node Express: File upload example](https://www.bezkoder.com/angular-16-node-express-file-upload/)
+> [Angular 16 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-16-node-js-express-mongodb/)
 
-> [Angular 17 + Node Express: File upload example](https://www.bezkoder.com/angular-17-node-express-file-upload/)
+> [Angular 17 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-17-node-js-express-mongodb/)
 
-Integration (run back-end & front-end on same server/port)
-> [How to integrate Angular with Node Restful Services](https://www.bezkoder.com/integrate-angular-12-node-js/)
+> [React + Node.js + Express + MongoDB example](https://www.bezkoder.com/react-node-express-mongodb-mern-stack/)
+
+Integration on same Server/Port:
+> [Integrate Vue with Node.js Express](https://www.bezkoder.com/serve-vue-app-express/)
+
+> [Integrate Angular with Node.js Express](https://www.bezkoder.com/integrate-angular-12-node-js/)
+
+> [Integrate React with Node.js Express](https://www.bezkoder.com/integrate-react-express-same-server-port/)
+
+## Project setup
+```
+npm install
+```
+
+### Run
+```
+node server.js
+```
