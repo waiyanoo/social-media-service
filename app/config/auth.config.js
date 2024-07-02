@@ -1,3 +1,5 @@
 module.exports = {
-  secret: "bezkoder-secret-key"
+  secret: "ddm-is-secrect",
+  jwtExpiration: 3600,
+  jwtRefreshExpiration: 86400,
 };
