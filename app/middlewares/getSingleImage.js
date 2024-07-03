@@ -1,0 +1,3 @@
+getSingleImage = (req, res, next) => {
+
+}
