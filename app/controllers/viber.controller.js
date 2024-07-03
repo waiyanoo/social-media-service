@@ -45,8 +45,8 @@ exports.postContent = async (req, res) => {
 
                 const viberRes = await post(viber.createPost,
                     {
-                        "auth_token": "530289b902363b86-75830edf7a719760-33322090f6afe580",
-                        "from":"3Q4nfH6ZV2bOenMsjVa/hQ==",
+                        "auth_token": req.body.viber_token,
+                        "from": req.body.viber_user,
                         "type":"picture",
                         "text": req.body.description ,
                         "media": response.url,
